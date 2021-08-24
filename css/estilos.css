@@ -1,0 +1,6 @@
+@charset "UTF-8";
+*
+.imagenofertasniños {
+  animation-duration: 3s;
+  animation-name: aparecer;
+  margin-top: 40px; }
