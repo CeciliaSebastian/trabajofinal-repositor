@@ -1,0 +1,261 @@
+@import "colores";
+@import "estructura";
+@import "variables";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/69/ec/45/69ec45dd754be7ff9377af4c58013387.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/*Inicio de página*/
+.nuevoLogo{
+     margin-top: 0px;
+}
+
+.encabezado{
+    background-repeat:repeat-x;
+    background-size: cover;
+    background-position: right;
+    font-family: 'Kaushan Script', cursiva;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/*Barra de navegación*/
+.navegacion{
+    width: auto;
+    margin: 60px auto;
+    background-image: linear-gradient(to right, #ffffff, #e083ba, #ffffff);
+
+.breadcrumb-item__submenu{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  ul{
+   list-style: none;
+   text-align: center;
+}
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+
+.menu > li > a{
+    display: inline-block;
+    padding: 30px 20px;
+    color:rgb(0, 0, 0);
+    font-family: _open sans;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.menu li a:hover{
+color: #CE7D35;
+transition: all .3s;
+}
+
+/* Submenu*/
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 200%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: inline-block;
+    padding: 6px;
+    color: #fff;
+    font-family: "Open sans";
+    text-decoration: none;
+    list-style-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.dreamstime.com%2Flline-del-pulso-con-ciclo-vital-hombre-nacimiento-la-edad-avanzada-en-siluetas-image100945361&psig=AOvVaw2RId2wJKBT7p-PlpX7EvOP&ust=1626367339378000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMjh-s6A4_ECFQAAAAAdAAAAABAa");
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    text-align: left;
+}
+
+
+/*Todos los productos y las marcas*/
+.todosLosProductos {
+    margin-bottom: 0px;
+}
+.todasLasMarcas{
+    margin-bottom: 0px;
+}
+
+
+/*Imagenes Direccionables*/
+.imagenesDireccionables{
+    margin-top: 25px;
+}
+
+
+/*Noticias*/
+.newsletter{
+    letter-spacing: 7px;
+    margin-top: 20px;
+    p {line-height: 1.7;
+    }
+}
+
+
+/*Horarios*/
+.tituloHorarios{
+    size:6;
+    margin-top: 5px;
+}
+.horarioSemanal .horarioFinde{
+    line-height: 1.5;
+}
+
+.horarioSemanal{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+
+/*MAPS*/
+.maps{
+    margin-top: 20px;
+}
+
+  @keyframes aparecer{
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+
+  .slogan{
+    animation-duration: 3s;
+    animation-name: aparecer;
+  }
+
+  @keyframes aparecer{
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+
+  .logoFinal{
+      margin-top: 100px;
+  }
+
+
+
+
+
+/*Gracias por elegirnos*/
+  .graciasPorElegirnos{
+    border: 1px #f00;
+    background-color: #fdd;
+}
+
+.graciasPorElegirnos--nuevamente{
+    @extend.graciasPorElegirnos;
+    border-width: 3px;
+}
+
+
+/*Accesorios y juguetes*/
+  .fotoJuguete{
+      margin-top: 5px;
+      width: 300px;
+      height: 200px;
+  }
+
+
+/*Medias de bebes y niños*/
+.fotoMedias{
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+/*Pañales de adultos*/
+.fotopAdultos{
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+/*Pañales bebes*/
+  .FotoOfertasNinos{
+      width: 350px;
+  }
+
+  .fotopNinos{
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+  }
+
+
+/*Spotybeby*/
+.spotyBaby{
+    width: (1348/2)*2;
+    height: (381-1);
+    background-image: linear-gradient(blue);
+}
+
+.musicaparatuschicos{
+    border: 1px #f00;
+}
+
+.musicaparatuschicos--nuevamente{
+    @extend.musicaparatuschicos;
+    border-width: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*RESPONSIVE*/
+/*Celular*/
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(1, auto);
+}
+  
+/*Tablet*/
+  @media only screen and (min-width: 768px) {
+    .container {
+      grid-template-columns: repeat(1, 100%); }
+     }
+  
+/*Destwork*/
+  @media only screen and (min-width: 1024px) {
+    .container {
+      grid-template-columns: repeat(1, 100%); }
+    }
+
+
+
