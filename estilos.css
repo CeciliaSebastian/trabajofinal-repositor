@@ -226,14 +226,14 @@ input:checked ~ label {
 ul{
   margin-top:0;
   padding: 0;
-  width: 200px;
+  width: 100px;
 
 }
 
 
 li {
   display: block;
-  background: lightgrey;
+  background: lightpink;
   margin: 0;
   padding: 10px;
   list-style: none;
