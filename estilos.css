@@ -212,12 +212,8 @@ label {
   font-weight: bold;
   text-align: center;
   user-select: none;
-}
-
-.menu{
   align: right;
 }
-
 
 /* Estilo del boton cuando se pasa el mouse por encima*/
 label:hover{
