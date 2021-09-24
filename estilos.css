@@ -78,10 +78,11 @@ body {
 
 /*Todos los productos y las marcas*/
 .todosLosProductos {
-  margin-bottom: 90px; }
+  margin-top: 120;
+  margin-bottom: 0px; }
 
 .todasLasMarcas {
-  margin-bottom: 90px; }
+  margin-bottom: 0px; }
 
 /*Imagenes Direccionables*/
 .imagenesDireccionables {
