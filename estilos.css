@@ -205,11 +205,11 @@ label {
   display: inline-block;
   border: 1px solid black;
   border-radius: 5px;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   line-height: 30px;
   font-weight: bold;
-  text-align: center;
+  text-align: right;
   user-select: none;
 }
 
