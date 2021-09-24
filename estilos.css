@@ -215,12 +215,12 @@ label {
 
 /* Estilo del boton cuando se pasa el mouse por encima*/
 label:hover{
-  background: grey;
+  background: pink;
 }
 
 /* Estilo del boton cuando el menú está expandido*/
 input:checked ~ label {
-  background: lightgrey; 
+  background: lightpink; 
 }
 
 ul{
