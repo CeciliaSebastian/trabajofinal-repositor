@@ -16,7 +16,9 @@ body {
 
 /*Inicio de página*/
 .nuevoLogo {
-  margin-top: 0px; }
+  margin-top: 0px; 
+  align: right; 
+}
 
 .encabezado {
   background-repeat: repeat-x;
