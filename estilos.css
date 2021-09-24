@@ -107,6 +107,14 @@ body {
 .horarioSemanal {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
+
+.col{
+  margin-top: 30px;
+}
+
+
+
+
 /*MAPS*/
 .maps {
   margin-top: 20px; }
