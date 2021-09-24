@@ -213,6 +213,11 @@ label {
   user-select: none;
 }
 
+.menu{
+  align: right;
+}
+
+
 /* Estilo del boton cuando se pasa el mouse por encima*/
 label:hover{
   background: pink;
