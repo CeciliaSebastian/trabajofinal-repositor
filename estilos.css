@@ -213,7 +213,7 @@ label {
   font-weight: bold;
   text-align: center;
   user-select: none;
-  align: right;
+  margin-left: 10px;
 }
 
 /* Estilo del boton cuando se pasa el mouse por encima*/
